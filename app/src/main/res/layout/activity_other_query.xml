@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.puwang.realmdemo.activity.OtherQueryActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/query_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="范围查询"/>
+
+    <Button
+        android:id="@+id/query_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询排序"/>
+
+    <Button
+        android:id="@+id/query_contains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模糊查询"/>
+
+    <Button
+        android:id="@+id/query_between"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="范围查询2"/>
+
+    <Button
+        android:id="@+id/query_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分组查询"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
